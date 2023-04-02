@@ -137,11 +137,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// Use to generate a new token
-// Console.WriteLine(Jwt.GenerateToken(new ApiUser { 
-//    Email = "poloboc@live.com",
-//    Id= 1,
-//    Name = "Alex Poloboc"
-// }));
-
 await app.RunAsync();
